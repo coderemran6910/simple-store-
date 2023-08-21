@@ -17,6 +17,15 @@ productCalculationByProductId_PriceId_ProductName("singleProduct5", "singleProdu
 // Product- 6
 productCalculationByProductId_PriceId_ProductName("singleProduct6", "singleProductPrice6" , "productName6");
 
+// Product- 7
+productCalculationByProductId_PriceId_ProductName("singleProduct7", "singleProductPrice7" , "productName7");
+
+// Product- 8
+productCalculationByProductId_PriceId_ProductName("singleProduct8", "singleProductPrice8" , "productName8");
+
+// Product- 9
+productCalculationByProductId_PriceId_ProductName("singleProduct9", "singleProductPrice9" , "productName9");
+
 
 
 document.getElementById("applyCouponBtn").addEventListener("click", function () {
