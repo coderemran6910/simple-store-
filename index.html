@@ -15,120 +15,99 @@
 </head>
 
 <body>
-    <header class="bg-[#F9F6E2] h-screen">
-        <div class="flex justify-between items-center max-w-screen-xl mx-auto">
+    <header class="bg-[#F9F6E2] lg:h-screen overflow-hidden">
+        <div
+            class="flex flex-col lg:flex-row justify-between items-center px-10 lg:px-0 pt-4 lg:pt-0 lg:max-w-screen-xl mx-auto">
             <!-- header Content -->
             <div class="text-center">
-                <p class="text-black text-3xl font-medium mb-11">---SALE FEVER---</p>
-                <h1 class="max-w-2xl font-bold text-6xl mb-20">Purchase TK 200 or above & get <span
+                <p class="text-black text-3xl font-medium mb-5 lg:mb-11">---SALE FEVER---</p>
+                <h1 class="max-w-2xl font-bold text-5xl lg:text-6xl mb-6 lg:mb-20 ">Purchase TK 200 or above & get <span
                         class="text-pink-600 ">20% off</span></h1>
                 <span class="text-black text-2xl mr-4">Use Promo Code</span>
                 <button class="btn btn-secondary w-40 h-14 rounded-lg text-2xl font-semibold">SELL200</button>
             </div>
             <!-- header img -->
-            <div class="max-w-3xl mx-auto">
-                <img src="./images/Summer 1.png" alt="">
+            <div class=" md:max-w-2xl lg:max-w-3xl mx-auto">
+                <img class="w-full" src="./images/Summer 1.png" alt="">
             </div>
         </div>
     </header>
 
 
     <section class="bg-[#F8F8F8]">
-        <div class="max-w-screen-xl mx-auto flex justify-between ">
+        <div class="flex flex-col lg:flex-row justify-center  lg:max-w-screen-xl mx-auto px-10 ">
 
             <!-- products category container -->
             <div class="flex-1">
                 <!-- 1st 3 products and category -->
+              
                 <div>
-                    <p class="mb-20 text-5xl font-semibold  mt-32 ">Kitchenware</p>
-                    <!--Kitchenware products container -->
-                    <div class="grid grid-cols-3 gap-6">
+                    <p class="mb-10 lg:mb-20 text-4xl lg:text-5xl font-semibold mt-10 lg:mt-32 text-center md:text-left ">
+                        Kitchenware</p>
+                    <!-- Kitchenware products container -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
                         <!-- single product1 -->
                         <div id="singleProduct"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
+                            class="card h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 py-5 max-w-xs">
                             <!-- bg-[#F8F8F8] -->
-                            <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            <figure class="px-4 py-4 bg-[#F8F8F8] w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod1.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- Rating -->
-                                <div class="rating mt-6">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-
+                                <!-- Rating code here -->
                                 <h2 id="productName" class="card-title text-xl font-semibold">K. Accessories</h2>
-                                <p class="text-[#1111117F]"> <span id="singleProductPrice"
-                                        class="font-normal text-xl ">39.00</span> TK </p>
+                                <p class="text-[#1111117F]"> <span id="singleProductPrice" class="font-normal text-xl">39.00</span>
+                                    TK </p>
                             </div>
                         </div>
-
+                
                         <!-- single product2 -->
                         <div id="singleProduct2"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
-                             <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            class="card h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 py-5 max-w-xs">
+                            <figure class="px-4 py-4 bg-[#F8F8F8] w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod2.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- Rating -->
-                                <div class="rating mt-6">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-
+                                <!-- Rating code here -->
                                 <h2 id="productName2" class="card-title text-xl font-semibold"> Wooden Bamboo </h2>
-                                <p class="text-[#1111117F]"> <span id="singleProductPrice2"
-                                        class="font-normal text-xl ">25.00</span> TK </p>
+                                <p class="text-[#1111117F]"> <span id="singleProductPrice2" class="font-normal text-xl">25.00</span>
+                                    TK </p>
                             </div>
                         </div>
                         <!-- single product3 -->
                         <div id="singleProduct3"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
-                             <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            class="card h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 py-5 max-w-xs">
+                            <figure class="px-4 py-4 bg-[#F8F8F8] w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod3.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- Rating -->
-                                <div class="rating mt-6">
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
-                                        checked />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                </div>
-
+                                <!-- Rating code here -->
                                 <h2 id="productName3" class="card-title text-xl font-semibold">Cooking utensils</h2>
-                                <p class="text-[#1111117F]"> <span id="singleProductPrice3"
-                                        class="font-normal text-xl">49.00 </span> TK </p>
+                                <p class="text-[#1111117F]"> <span id="singleProductPrice3" class="font-normal text-xl">49.00</span>
+                                    TK </p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
+                
 
 
 
                 <!-- 2nd 3 products and category -->
                 <div class="mt-14">
-                    <p class="mb-20 text-5xl font-semibold">Sportswear</p>
+                    <p class="mb-10 lg:mb-20 text-4xl lg:text-5xl font-semibold text-center md:text-left ">Sportswear
+                    </p>
                     <!--Kitchenware products container -->
-                    <div class="grid grid-cols-3 gap-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
 
 
                         <!-- single product4 -->
                         <div id="singleProduct4"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
-                             <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            class="card  h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
+                            <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod4.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
@@ -150,8 +129,8 @@
 
                         <!-- single product5 -->
                         <div id="singleProduct5"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
-                             <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            class="card  h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
+                            <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod5.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
@@ -173,8 +152,8 @@
 
                         <!-- single product6 -->
                         <div id="singleProduct6"
-                            class="card  h-[350px] bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 w- py-5 max-w-xs">
-                             <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
+                            class="card  h-[350px] w-full bg-base-100 shadow-xl bg-white rounded-lg cursor-pointer px-5 py-5 max-w-xs">
+                            <figure class=" px-4 py-4 bg-[#F8F8F8]  w-48 h-52 rounded-lg mx-auto">
                                 <img src="./images/prod6.png" class="rounded-lg w-28 mx-auto" />
                             </figure>
                             <div class="card-body items-center text-center">
@@ -195,7 +174,7 @@
                         </div>
 
 
-                       
+
 
 
                     </div>
@@ -208,39 +187,39 @@
             <!-- sidebar -->
             <div class="mt-40 ml-8">
                 <!-- coupons input -->
-                <div class="bg-white rounded-lg">
+                <div class="bg-white rounded-lg mx-auto md:w-80 lg:w-96">
                     <h2 class="text-2xl font-medium mb-4 px-6 pt-6">Have coupon?</h2>
                     <div class="form-control">
-                        <div class="input-group px-6  pb-6">
+                        <div class="input-group px-6 pb-6">
                             <input id="couponInput" type="text" placeholder="Coupon code"
-                                class="input input-bordered w-60 h-14 " />
+                                class="input input-bordered w-40 lg:w-60 h-14" />
                             <button id="applyCouponBtn"
                                 class="btn btn-square btn-secondary w-24 h-14 disabled:bg-pink-300 disabled:text-slate-500"
                                 disabled>Apply</button>
-
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 w-80 bg-white rounded-lg relative">
-                    <!-- Selected Products name  -->
-                    <div id="selectedProductsName" class="px-6  mt-12 font-medium leading-10 text-2xl">
+                
+              
 
-                    </div>
+                <div class="mt-12 mx-auto md:w-80 lg:w-96 bg-white rounded-lg relative">
+                    <!-- Selected Products name -->
+                    <div id="selectedProductsName" class="px-6 mt-12 font-medium leading-10 text-2xl"></div>
                     <hr>
-                    <div class="mt-6 px-6 py-6  text-2xl font-medium leading-10 pb-12">
-                        <h3>Total price: <span id="totalPrice">00</span> TK</h3>
-                        <h3>Discount: <span id="discountPriceDisplay">00</span> TK</h3>
-                        <h3>Total: <span id="subTotalDisplay">00</span> TK</h3>
+                    <div class="mt-6 px-6 py-6 text-2xl font-medium leading-10 pb-12">
+                        <h3>Total price: <p class="text-[#1111117F] inline "><span id="totalPrice">00</span> TK</p></h3>
+                        <h3>Discount: <p class="text-[#1111117F] inline  "><span id="discountPriceDisplay">00</span> TK</p></h3>
+                        <h3>Total: <p class="text-[#1111117F] inline  "><span id="subTotalDisplay">00</span> TK</p></h3>
                         <hr class="mt-6">
-
                     </div>
-
-                       <div class="max-w-xl mx-auto ">
-                        <button id="makePurchase" class="btn btn-active btn-secondary w-72 mx-auto  mt-6 rounded-lg disabled:bg-pink-300 disabled:text-slate-500" disabled onclick="my_modal_5.showModal()">Make Purchase</button>
+                    <div class="max-w-xl mx-auto">
+                        <button id="makePurchase"
+                            class="btn btn-active btn-secondary w-72 mx-auto mt-6 rounded-lg disabled:bg-pink-300 disabled:text-slate-500"
+                            disabled onclick="my_modal_5.showModal()">Make Purchase</button>
                         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle text-center">
                             <form method="dialog" class="modal-box">
                                 <div class="w-40 h-40 mx-auto">
-                                    <img src="./images/congo.png" class="w-full h-full ">
+                                    <img src="./images/congo.png" class="w-full h-full">
                                 </div>
                                 <h3 class="font-bold text-5xl py-4">Congratulations</h3>
                                 <p class="py-4 text-lg font-normal text-[#1111117F]">Your Purchase the product</p>
@@ -250,9 +229,9 @@
                                 </div>
                             </form>
                         </dialog>
-                       </div>
-                    
+                    </div>
                 </div>
+                
 
             </div>
         </div>
